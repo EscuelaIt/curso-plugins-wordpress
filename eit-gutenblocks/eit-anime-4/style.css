@@ -1,0 +1,23 @@
+/**
+ * Note that these styles are loaded *before* editor styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+ .wp-block-eit-gutenblocks-eit-anime-4 {
+	color: #0c008b;
+	background: rgb(214, 204, 255);
+	border: 2px solid rgb(153, 156, 204);
+	border-radius: 6px;
+	padding: 20px;
+}
+
+.eit-gutenblocks-eit-anime-4-align-left {
+	text-align: left;
+}
+
+.eit-gutenblocks-eit-anime-4-align-center {
+	text-align: center;
+}
+
+.eit-gutenblocks-eit-anime-4-align-right {
+	text-align: right;
+}

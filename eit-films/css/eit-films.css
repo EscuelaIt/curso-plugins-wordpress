@@ -1,0 +1,164 @@
+.eit-films {
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+  margin: 100px auto;
+}
+
+.eit-film-card__title {
+  grid-area: title;
+}
+.eit-film-card__img {
+  grid-area: img;
+  object-fit: cover;
+}
+.eit-film-card__actores {
+  grid-area: actores;
+}
+.eit-film-card__director {
+  grid-area: director;
+}
+.eit-film-card__parte {
+  grid-area: parte;
+}
+
+.eit-cols-1 {
+grid-template-columns: 1fr;
+}
+
+.eit-cols-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.eit-cols-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.eit-film-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 10px 5px #666;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 300px;
+}
+
+.eit-cols-1 .eit-film-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:  'img title'
+                        'img actores'
+                        'img director'
+                        'img parte';
+  max-width: 600px;
+}
+
+.eit-cols-2 .eit-film-card {
+  max-width: 400px;
+}
+
+h2.eit-film-card__title {
+  font-size: 2rem;
+  height: 4rem;
+}
+
+.eit-film-card > *:not(img) {
+  padding: 1rem;
+}
+
+
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Pacifico&display=swap');
+
+.eit-films {
+  display: grid;
+  gap: 1rem;
+}
+
+.eit-cols-1 {
+  grid-template-columns: 1f;
+}
+
+.eit-cols-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.eit-cols-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.eit-film-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 10px 5px #666;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+body {
+  background-image: url("../../../uploads/2023/06/spotlights-background.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% 75%;
+}
+
+hr {
+  width: 60%;
+  height: 8px !important;
+  background-color: beige;
+  border-radius: 60%;
+  border: none !important;
+  box-shadow: 2px 2px #6c6c6c;
+  margin-bottom: 56px !important;
+}
+
+h1 {
+  font-family: Pacifico !important;
+  font-size: 12vw !important;
+  text-align: center;
+  margin-bottom: 24px !important;
+  color: beige;
+  text-shadow: 2px 2px #6c6c6c;
+}
+
+h2 {
+  font-family: DM Serif Display !important;
+  font-size: 5vw !important;
+  margin-bottom: 2vw !important;
+}
+
+.eit-film-card {
+  background-color: rgb(44, 44, 42);
+  font-size: 2vw;
+  color: beige;
+  box-shadow: 0 0 10px 5px #244f60;
+  text-align: center;
+  padding: 2vw 1vw 2vw 1vw !important;
+  margin-bottom: 5vw !important;
+}
+
+.eit-cols-2 h2 {
+  font-size: 4vw !important;
+}
+
+.eit-cols-2 .eit-film-card {
+  font-size: 1.5vw !important;
+}
+
+.eit-cols-3 h2 {
+  font-size: 2vw !important;
+}
+
+.eit-cols-3 .eit-film-card {
+  font-size: 1vw !important;
+}
+
+
+*/

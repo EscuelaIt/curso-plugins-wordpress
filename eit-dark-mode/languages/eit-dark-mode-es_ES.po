@@ -1,0 +1,54 @@
+# Copyright (C) 2023 EIT
+# This file is distributed under the same license as the Dark Mode plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Dark Mode 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/eit-dark-mode\n"
+"Last-Translator: \n"
+"Language-Team: Español\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-06-13T18:55:50+00:00\n"
+"PO-Revision-Date: 2023-06-13 18:57+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: eit-dark-mode\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2"
+
+#. Plugin Name of the plugin
+msgid "Dark Mode"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Plugin para gestionar una paleta de colores para un tema claro y otro para "
+"un tema oscuro."
+msgstr ""
+
+#. Author of the plugin
+msgid "EIT"
+msgstr ""
+
+#: eit-dark-mode.php:83
+msgid "Light"
+msgstr "Claro"
+
+#: eit-dark-mode.php:84
+msgid "Dark"
+msgstr "Oscuro"
+
+#: eit-dark-mode.php:85
+msgid "System"
+msgstr "Sistema"
+
+#: js/eit-dark-mode.js:37
+msgid "Save theme to local storage"
+msgstr "Guardar tema en local storage"
+
+#: js/eit-dark-mode.js:51
+msgid "An item has been saved."
+msgid_plural "%d items have been saved."
+msgstr[0] "Se ha guardado un elemento."
+msgstr[1] "Se han guardado %d elementos."

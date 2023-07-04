@@ -1,0 +1,50 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "eit-gutenblocks/eit-anime-5",
+	"title": "EIT: Anime Card",
+	"icon": "index-card",
+	"category": "layout",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"source": "html",
+			"selector": "h2"
+		},
+		"mediaID": {
+			"type": "number"
+		},
+		"mediaURL": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "img",
+			"attribute": "src"
+		},
+		"sagas": {
+			"type": "string",
+			"source": "html",
+			"selector": ".sagas"
+		},
+		"plot": {
+			"type": "string",
+			"source": "html",
+			"selector": ".plot"
+		}
+	},
+	"example": {
+		"attributes": {
+			"title": "Drabon Ball Z",
+			"mediaURL": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Dragon_Ball_Z_Logo.png",
+			"sagas": [ "Sayajin", "Freezer", "Garlick Jr.", "Cell", "Majin Boo" ],
+			"plot": [ "The continuation of Dragon Ball that recounts the adventures of Goku in his adult stage" ]
+		}
+	},
+	"editorScript": "file:./block.js",
+	"supports": {
+		"color": {
+				"text": true,
+				"background": true
+		}	
+	},
+	"style": "file:./style.css"
+}

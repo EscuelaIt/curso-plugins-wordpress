@@ -1,0 +1,116 @@
+#eitForm {
+  width: 100%;
+  height: 40vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2vw;
+}
+
+#eitForm form {
+  width: fit-content;
+  border: solid 3px #474544;
+  padding: 4vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #F2F3EB;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#eitForm form #name, 
+#eitForm form #email {
+  width: 100%;
+  font-size: 14px;
+  padding-top: 2vw;
+  border: none;
+  border-bottom: 2px solid #474544;
+  background-color: #F2F3EB;
+  color: #474544;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+.eit-table-container input:-webkit-autofill:focus {
+  outline: none;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.eit-table-container label {
+  color: #5A5A5A;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#eitForm form input[type='submit'] {
+  background: #474544;
+  border: solid 2px #474544;
+  color: #F2F3EB;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s;
+  margin-top: 1rem;
+}
+
+#eitForm form input[type='submit']:hover {
+  background: #F2F3EB;
+  color: #474544;
+}
+
+h4 {
+  text-align: center;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+table.eit-utils-newsletter-table {
+  color: #474544;
+  border-collapse: collapse;
+  color: #474544;
+  font-size: 1em;
+  box-sizing: border-box;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin: 2vw auto;
+
+}
+
+table.eit-utils-newsletter-table thead tr {
+  text-align: center;
+}
+
+table.eit-utils-newsletter-table th, 
+table.eit-utils-newsletter-table td {
+  padding: 1rem 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+table.eit-utils-newsletter-table tbody tr {
+  border: 1px solid #dddddd;
+}
+
+table.eit-utils-newsletter-table tbody tr:nth-of-type(even) {
+  background-color: #F2F3EB;
+}
+
+table.eit-utils-newsletter-table tbody tr:last-of-type {
+  border-bottom: 2px solid #F2F3EB;
+}
+
+table.eit-utils-newsletter-table th, 
+table.eit-utils-newsletter-table td {
+  border: 1px solid #dddddd;
+}

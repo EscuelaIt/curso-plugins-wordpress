@@ -1,0 +1,31 @@
+.me-gusta-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.me-gusta-button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  padding-right: 1rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-image: url(../assets/heart-outline.svg);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  background-color: transparent !important;
+  border: 4px solid #222;
+  color: #222 !important;
+  width: 120px;
+  padding: .5rem !important;
+  transition: all .3s;
+}
+.me-gusta-button:hover {
+  background-color: #bbb !important;
+}
+
+.me-gusta-button.like {
+  background-image: url(../assets/heart-filled.svg);
+}

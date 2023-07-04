@@ -1,0 +1,44 @@
+:root {
+
+  --eit-color: rebeccapurple;
+  --eit-bg: aquamarine;
+  --global--color-primary: var(--eit-color) !important;
+  --global--color-background: var(--eit-bg) !important;
+}
+
+body {
+  color: var(--eit-color) !important;
+  background-color: var(--eit-bg) !important;
+  color-scheme: light dark;
+
+}
+
+body.eit-light {
+  --eit-color: #222;
+  --eit-bg: aquamarine;
+}
+
+body.eit-dark {
+  --eit-color: yellow;
+  --eit-bg: #222;
+}
+
+body.eit-system {
+  --eit-bg: Canvas;
+  --eit-color: CanvasText;
+}
+
+.eit_radios {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.eit_radios label {
+  display: inline-block;
+  padding: 0 5px 0 10px;
+  margin: 0;
+  font-size: var(--global--font-size-xs);
+  vertical-align: unset;
+  cursor: pointer;
+}

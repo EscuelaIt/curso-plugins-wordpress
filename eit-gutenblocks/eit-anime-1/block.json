@@ -1,0 +1,11 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"title": "EIT: Anime 1",
+	"name": "eit-gutenblocks/eit-anime-1",
+	"category": "layout",
+	"icon": "carrot",
+	"textdomain": "eit-gutenblocks",
+	"example": {},
+	"editorScript": "file:./block.js"
+}

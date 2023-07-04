@@ -1,0 +1,12 @@
+/**
+ * Note that these styles are loaded *after* common styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+
+.wp-block-eit-gutenblocks-eit-anime-3 {
+	color: #000000;
+	background: rgb(231, 251, 142);
+	border: 2px solid rgb(137, 149, 0);
+	border-radius: 6px;
+	padding: 20px;
+}

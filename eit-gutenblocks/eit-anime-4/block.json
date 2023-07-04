@@ -1,0 +1,28 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "eit-gutenblocks/eit-anime-4",
+	"title": "EIT: anime 4",
+	"icon": "carrot",
+	"category": "layout",
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		},
+		"alignment": {
+			"type": "string",
+			"default": "none"
+		}
+	},
+	"example": {
+		"attributes": {
+			"content": "Hello Drabon Ball",
+			"alignment": "right"
+		}
+	},
+	"editorScript": "file:./block.js",
+	"editorStyle": "file:./editor.css",
+	"style": "file:./style.css"
+}

@@ -1,0 +1,49 @@
+# Copyright (C) 2023 EIT
+# This file is distributed under the same license as the Dark Mode plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Dark Mode 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/eit-dark-mode\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-06-13T18:55:50+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: eit-dark-mode\n"
+
+#. Plugin Name of the plugin
+msgid "Dark Mode"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin para gestionar una paleta de colores para un tema claro y otro para un tema oscuro."
+msgstr ""
+
+#. Author of the plugin
+msgid "EIT"
+msgstr ""
+
+#: eit-dark-mode.php:83
+msgid "Light"
+msgstr ""
+
+#: eit-dark-mode.php:84
+msgid "Dark"
+msgstr ""
+
+#: eit-dark-mode.php:85
+msgid "System"
+msgstr ""
+
+#: js/eit-dark-mode.js:37
+msgid "Save theme to local storage"
+msgstr ""
+
+#: js/eit-dark-mode.js:51
+msgid "An item has been saved."
+msgid_plural "%d items have been saved."
+msgstr[0] ""
+msgstr[1] ""

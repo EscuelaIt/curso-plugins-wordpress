@@ -1,0 +1,62 @@
+/**
+ * Note that these styles are loaded *before* editor styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+
+.wp-block-eit-gutenblocks-eit-anime-5 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	padding: 1rem;
+	border-radius: 6px;
+}
+
+.wp-block-eit-gutenblocks-eit-anime-5 .anime-image {
+	/* background: #f1f1f1; */
+	/* float: right; */
+	width: 50%;
+	height: 200px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wp-block-eit-gutenblocks-eit-anime-5 .anime-image button {
+	margin-top: 30px;
+	display: block;
+	height: 100%;
+}
+
+.wp-block-eit-gutenblocks-eit-anime-5 .anime-image button.image-button {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.wp-block-eit-gutenblocks-eit-anime-5 .anime-image img {
+	display: block;
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    width: auto;
+    aspect-ratio: 1;
+}
+
+.wp-block-eit-gutenblocks-eit-anime-5 h2 {
+	font-size: 1.5em;
+}
+
+.wp-block-eit-gutenblocks-eit-anime-5 ul {
+	padding-left: 2.5em !important; /* Needs fix in Gutenberg. */
+}
+
+.wp-block-eit-gutenblocks-eit-anime-5::after {
+	content: "";
+	clear: both;
+	display: table;
+}
